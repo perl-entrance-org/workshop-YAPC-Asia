@@ -174,7 +174,7 @@
 - `Getopt::Long` はコアモジュールであるため, 特別にインストールする必要はない
     - 上記の書き方はおまじないだと思ってください
 
-## Getopt::Long !!FIXME
+## Getopt::Long
     my %opt; # => ハッシュ
     Getopt::Long::GetOptions(
         "f|foo=i" => \$opt{foo} # => 数値   --foo=256
